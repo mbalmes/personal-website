@@ -1,6 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Michael Balmes"
+theme = "coder-portfolio"
 
 [params]
     author = "Michael Balmes"

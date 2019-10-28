@@ -5,7 +5,6 @@ theme = "coder-portfolio"
 
 [params]
     author = "Michael Balmes"
-    avatarurl = "images/me_bw.png"
     snsShare = true
     info = "Web and Infrastructure Engineer" # Author's job title or info.
     

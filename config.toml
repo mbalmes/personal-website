@@ -1,0 +1,36 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Michael Balmes"
+theme = "coder-portfolio"
+
+[params]
+    author = "Michael Balmes"
+    avatarurl = "images/me_bw.png"
+    snsShare = true
+    info = "Web and Infrastructure Engineer" # Author's job title or info.
+    
+[[params.social]]
+name = "Github"
+icon = "fab fa-github"
+url = "https://github.com/mbalmes/"
+
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 2
+    url = "https://www.linkedin.com/in/michael-balmes-070ba4107/"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Blog posts"
+url = "/blog"
+weight = 2
+
+[[menu.main]]
+    name = "portfolio"
+    weight = 3
+    url = "portfolio"

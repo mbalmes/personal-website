@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Michael Balmes</title>
-    <link>http://example.org/</link>
+    <link>awesome-colden-fd8d8d.netlify.com/</link>
     <description>Recent content on Michael Balmes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 22 Oct 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="awesome-colden-fd8d8d.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>I ain&#39;t scared of no vendor lock-in</title>
-      <link>http://example.org/blog/lock-in/</link>
+      <link>awesome-colden-fd8d8d.netlify.com/blog/lock-in/</link>
       <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/lock-in/</guid>
+      <guid>awesome-colden-fd8d8d.netlify.com/blog/lock-in/</guid>
       <description>&amp;ldquo;We can&amp;rsquo;t use functions or we&amp;rsquo;ll be stuck with Azure.&amp;rdquo;
 &amp;ldquo;We can&amp;rsquo;t use cognito or we&amp;rsquo;ll be with AWS forever.&amp;rdquo;
 I hear it all the time. Vendor lock-in is going to be the scariest halloween costume for a cloud engineer this halloween season. I&amp;rsquo;m not saying vendor lock-in isn&amp;rsquo;t a problem. In fact, it&amp;rsquo;s costing some big companies a lot of money. But, I&amp;rsquo;m not one of them. Avoiding vendor lock-in is expensive, really expensive, for small to medium sized cloud users.</description>
@@ -24,20 +24,20 @@ I hear it all the time. Vendor lock-in is going to be the scariest halloween cos
     
     <item>
       <title>Serverless: still no such thing as a silver bullet</title>
-      <link>http://example.org/blog/serverless/</link>
+      <link>awesome-colden-fd8d8d.netlify.com/blog/serverless/</link>
       <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/serverless/</guid>
+      <guid>awesome-colden-fd8d8d.netlify.com/blog/serverless/</guid>
       <description>Serverless is the new hotness right now, which means everyone is using it for everything and getting upset that isn&amp;rsquo;t some magical wand that solves all their problems. For example, cardgames.io switched from Elastic Beanstalk to Lambdas and saw their bills go up and response time get worse. Isn&amp;rsquo;t the whole point of serverless that the built in autoscaling saves money and helps with performance?
 When I talk about serverless, I tell people serverless is like Uber and everything else is like owning a car.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://example.org/portfolio/</link>
+      <link>awesome-colden-fd8d8d.netlify.com/portfolio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/portfolio/</guid>
+      <guid>awesome-colden-fd8d8d.netlify.com/portfolio/</guid>
       <description>RAICS
 RAICS is a multi-cloud distributed storage solution to increase privacy and security, provide extreme high-availability, and prevent vendor lock-in.
 This Website

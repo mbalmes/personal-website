@@ -6,23 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="author" content="Michael Balmes">
-    <meta name="description" content="">
+    <meta name="description" content="https://michaelbalmes.com">
     
 
     <meta property="og:site_name" content="Michael Balmes">
-    <meta property="og:title" content="Michael Balmes">
+    <meta property="og:title" content="
+  Speech recognition needs versioning - Michael Balmes
+">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://michaelbalmes.com/">
+    <meta property="og:url" content="https://michaelbalmes.com/blog/voice-recognition-versioning/">
     <meta property="og:image" content="https://michaelbalmes.com">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="https://michaelbalmes.com/">
+    <meta name="twitter:site" content="https://michaelbalmes.com/blog/voice-recognition-versioning/">
     <meta name="twitter:image" content="https://michaelbalmes.com">
 
-    <base href="https://michaelbalmes.com/">
-    <title>Michael Balmes</title>
+    <base href="https://michaelbalmes.com/blog/voice-recognition-versioning/">
+    <title>
+  Speech recognition needs versioning - Michael Balmes
+</title>
 
-    <link rel="canonical" href="https://michaelbalmes.com/">
+    <link rel="canonical" href="https://michaelbalmes.com/blog/voice-recognition-versioning/">
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     
@@ -82,35 +86,20 @@
 
       <div class="content">
         
-  <section class="container centered">
-  <div class="about">
-    
-      <div class="avatar"><img src="https://michaelbalmes.com/images/me_bw.png" alt="avatar"></div>
-    
-    <h1>Michael Balmes</h1>
-    <h2>Web and Infrastructure Engineer</h2>
-    
-    <ul class="social-list">
-      
-        <li class="social-item">
-          <a href="https://github.com/mbalmes/" aria-label="Github" >
-            
-              <i class="fab fa-github" aria-hidden="true"></i>
-            
-          </a>
-        </li>
-      
-        <li class="social-item">
-          <a href="https://www.linkedin.com/in/michael-balmes-070ba4107/" aria-label="LinkedIn" >
-            
-              <i class="fab fa-linkedin" aria-hidden="true"></i>
-            
-          </a>
-        </li>
-      
-    </ul>
-    
-  </div>
+  <section class="container page">
+  <article>
+    <header>
+      <h1>Speech recognition needs versioning</h1>
+    </header>
+
+    <p>I feel betrayed. I let Amazon Alexa into my house and let her listen to all my amazing conversations that I have and all I ask is that she turns on the lights for me. But, now half the time I ask her to &ldquo;turn on all my lights&rdquo; she response &ldquo;sorry, I didn&rsquo;t find a device called northern lights&rdquo; or &ldquo;which one did you mean?&rdquo; She used to work so amazing, but has gotten progressively worse over time. The worse part is that I know Amazon employees have listend on my conversations with her
+because I have called her some very mean words very loudly and they&rsquo;ve got to have some system to flag those, right? But, here we are. I don&rsquo;t actually know where my Alexa is because I threw her across the room somewhere and I haven&rsquo;t found her yet.</p>
+
+<p>I would be so much happier if speech recogition platforms like Amazon Alexa and Apple&rsquo;s Siri had versioning and I could opt of updates when they break my use cases. It seems like a win-win situation too. I get more stability and they get a very useful metric, percentage of rollbacks. Want to know how well your update to you speech recognition went? What percentage of users went back to the previous update? The problem with speech recognition is that it&rsquo;s hard to make an objectively better improvement to them. An improvement for many might be a regression for a smaller group. As a web developer, I was taught to uphold backwards compatability and consistency, but for some reason speech recognition gets a pass.</p>
+
+<p>I understand that when I bought my Alexa I wasn&rsquo;t buying the speech recognition. I was buying a device that connected me to an ecosystem beyond my control, but I would at least like to maintain the functionality I started with. I&rsquo;m looking at setting up <a href="https://mycroft.ai/">mycroft</a> on some Raspberry PIs right now because I would rather have a worse performing platform that is consitently mediocre than one that is sometimes amazing and sometimes useless.</p>
+
+  </article>
 </section>
 
 

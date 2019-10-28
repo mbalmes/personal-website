@@ -1,4 +1,4 @@
-baseURL = "awesome-colden-fd8d8d.netlify.com/"
+baseURL = "https://michaelbalmes.com"
 languageCode = "en-us"
 title = "Michael Balmes"
 theme = "coder-portfolio"
@@ -6,7 +6,8 @@ theme = "coder-portfolio"
 [params]
     author = "Michael Balmes"
     snsShare = true
-    info = "Web and Infrastructure Engineer" # Author's job title or info.
+    info = "Web and Infrastructure Engineer"
+    avatarurl = "images/me_bw.png"
     
 [[params.social]]
 name = "Github"
@@ -25,11 +26,17 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Blog posts"
-url = "/blog"
+name = "About me"
+url = "/me"
 weight = 2
 
+
 [[menu.main]]
-    name = "portfolio"
-    weight = 3
-    url = "portfolio"
+name = "Blog posts"
+url = "/blog"
+weight = 3
+
+[[menu.main]]
+name = "portfolio"
+weight = 4
+url = "portfolio"

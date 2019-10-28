@@ -3,36 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>awesome-colden-fd8d8d.netlify.com/blog/</loc>
-    <lastmod>2019-10-22T00:00:00+00:00</lastmod>
+    <loc>https://michaelbalmes.com/blog/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>awesome-colden-fd8d8d.netlify.com/blog/lock-in/</loc>
-    <lastmod>2019-10-22T00:00:00+00:00</lastmod>
+    <loc>https://michaelbalmes.com/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>awesome-colden-fd8d8d.netlify.com/</loc>
-    <lastmod>2019-10-22T00:00:00+00:00</lastmod>
+    <loc>https://michaelbalmes.com/blog/voice-recognition-versioning/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>awesome-colden-fd8d8d.netlify.com/blog/serverless/</loc>
+    <loc>https://michaelbalmes.com/blog/serverless/</loc>
     <lastmod>2019-09-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>awesome-colden-fd8d8d.netlify.com/portfolio/</loc>
+    <loc>https://michaelbalmes.com/me/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>awesome-colden-fd8d8d.netlify.com/categories/</loc>
+    <loc>https://michaelbalmes.com/portfolio/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>awesome-colden-fd8d8d.netlify.com/tags/</loc>
+    <loc>https://michaelbalmes.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://michaelbalmes.com/tags/</loc>
   </url>
   
 </urlset>

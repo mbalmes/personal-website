@@ -5,17 +5,14 @@ import Portfolio from "../components/portfolio";
 import Blog from "../components/blog";
 const IndexPage = () => (
   <Layout>
-    <div class="columns is-centered">
-      <div class="column is-6">
-        {/* <Nav />                      */}
+    <div class="columns is-gapless is-multiline">
+      <div class="column is-12">
         <Me />
       </div>
-      </div>
-      <div class="columns is-centered">
-        <div class="column is-4">
+      <div class="column is-6">
         <Portfolio />
-        </div>
-        <div class="column is-4">
+      </div>
+      <div class="column is-6">
         <Blog />
       </div>
     </div>

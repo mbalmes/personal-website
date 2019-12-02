@@ -1,0 +1,10 @@
+#is-me{
+    background-image: url("../images/me.jpg");
+    background-position: center; 
+    background-size: cover;
+    image-orientation: from-image;
+    background-repeat:no-repeat;
+}
+img{
+    border-radius: 50%;
+}
